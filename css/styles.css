@@ -25,7 +25,7 @@ ul{
 
 /* formato menu de navegacion de todas las paginas */
 .barra_navegacion_ppal{
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: 'Tangerine', serif;
     background-color: antiquewhite;
     padding: 0px;
@@ -38,6 +38,11 @@ ul{
     width: 100%;
     margin: 0px;
 }
+
+.barra_navegacion_ppal li a:hover{
+    background-color:#FCC;
+}
+
 
 .link-nav{
     text-decoration: none;
@@ -142,7 +147,7 @@ ul{
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 0px;
-    height: 40px;
+    height: 50px;
     width: 40px;
 }
 
@@ -167,3 +172,5 @@ form{
     align-items: center;
     grid-template-columns: 1fr 1fr;
 }
+
+</style>
