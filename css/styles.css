@@ -7,11 +7,11 @@ body{
 }
 
 /* formato titulo principal de todas las paginas */
-h1 {
+.titulo-main {
     color: gray;
     text-align: center;
-    font-size: 80px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 100;
     padding: 0px;
     border: 0px;
     margin: 0px;
@@ -24,8 +24,9 @@ ul{
 }
 
 /* formato menu de navegacion de todas las paginas */
-.barra_navegacion{
+.barra_navegacion_ppal{
     font-size: 40px;
+    font-family: 'Tangerine', serif;
     background-color: antiquewhite;
     padding: 0px;
     border: 0px;
@@ -36,6 +37,10 @@ ul{
     height: 50px;
     width: 100%;
     margin: 0px;
+}
+
+.link-nav{
+    text-decoration: none;
 }
 
 .cuerpo {
@@ -51,6 +56,10 @@ ul{
     grid-template-rows: 1fr 1fr;
 }
 
+
+.carousel-item img{
+    width: 100%;
+}
 .cuerpo-habitacion{
     display: grid;
     width: auto;
@@ -105,11 +114,11 @@ ul{
     height: 100px;
 }
 
-footer	{
+.mifooter	{
 	display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     flex-direction: row;
     text-align: center;
     width: 100%;
@@ -122,7 +131,7 @@ footer	{
     background-color: antiquewhite;
     flex-direction: row;
     text-align: center;
-    height: 45px;
+    height: 50px;
     width: 100%;
     margin: 5px;
 }
@@ -130,17 +139,18 @@ footer	{
 
 /* formato imagenes de footer */
 .icono-social a img{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    height: 30px;
-    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 40px;
+    width: 40px;
 }
 
 /* texto de footer  */
 footer .texto{
     color: lightgray;
     text-align: center;
+    font-family: 'Tangerine', serif;
 }
 
 /* contenedor de formulario */
