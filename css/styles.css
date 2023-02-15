@@ -10,7 +10,7 @@ body{
 .titulo-main {
     color: gray;
     text-align: center;
-    font-size: 60px;
+    font-size: 8vw;
     font-weight: 100;
     padding: 0px;
     border: 0px;
@@ -25,7 +25,7 @@ ul{
 
 /* formato menu de navegacion de todas las paginas */
 .barra_navegacion_ppal{
-    font-size: 40px;
+    font-size: 6vw;
     font-family: 'Tangerine', serif;
     background-color: antiquewhite;
     padding: 0px;
@@ -139,9 +139,9 @@ ul{
 
 /* formato imagenes de footer */
 .icono-social a img{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
     height: 40px;
     width: 40px;
 }
